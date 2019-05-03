@@ -12,3 +12,13 @@ base class로부터 상속받은 derived class
  
  *명시적으로 base class constructor 선택
  
+<code>
+ class NamedCircle :public Circle
+{
+	string name;
+public:
+	NamedCircle(int radius, string name) :Circle(radius);
+	void show();
+};
+
+</code>
