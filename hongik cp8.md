@@ -38,7 +38,13 @@
 	
 	NamedCircle(int radius, string name);	// derived class내에 declaration 부분
 	
+
+	
 	NamedCircle::NamedCircle(int radius, string name) : Circle(radius)	// 구현 부분
 	{}
 
 </code>
+
+
+  * 업캐스팅과 다운캐스팅의 차이도 알아둘 것: 다운캐스팅의 경우 강제 타입 변환 반드시 필요!!!
+  
